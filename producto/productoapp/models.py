@@ -7,4 +7,4 @@ class Producto(models.Model):
     origenProducto = models.CharField(max_length=50)
     descripcionProducto = models.CharField(max_length=50)
     tipoProducto = models.CharField(max_length=50)
-    cantidadProducto = models.IntegerField(max_legth=15)
+    cantidadProducto = models.IntegerField(max_length=14)
